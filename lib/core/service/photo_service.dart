@@ -1,5 +1,6 @@
-import 'package:bloc_usage/core/model/gallery_model.dart';
 import 'package:vexana/vexana.dart';
+
+import '../model/gallery_model.dart';
 
 class PhotoService {
   INetworkManager networkManager = NetworkManager(options: BaseOptions(baseUrl: "https://jsonplaceholder.typicode.com/photos"));

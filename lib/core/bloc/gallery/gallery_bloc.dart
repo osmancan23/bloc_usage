@@ -1,9 +1,9 @@
 import 'package:bloc/bloc.dart';
-import 'package:bloc_usage/core/model/gallery_model.dart';
-import 'package:bloc_usage/core/service/photo_service.dart';
-
 import 'package:equatable/equatable.dart';
 import 'package:meta/meta.dart';
+
+import '../../model/gallery_model.dart';
+import '../../service/photo_service.dart';
 
 part 'gallery_event.dart';
 part 'gallery_state.dart';
